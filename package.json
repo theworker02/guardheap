@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/guardheap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Guard config/heap key checks for twelve-factor services.",
+  "bin": {
+    "guardheap": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/guardheap.git"
+  },
+  "homepage": "https://theworker02.github.io/guardheap/",
+  "keywords": [
+    "guard",
+    "heap",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
